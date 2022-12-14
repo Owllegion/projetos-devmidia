@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header{
+    background-color: tomato;
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    font-size: 2rem;
+}
+main{
+    width: 50vw;
+    margin: 8vw auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+input{
+    border: 1px solid black;
+    width: 60vw;
+    height: 5vh;
+    margin: 2vh auto;
+}
+label{
+    text-align:left;
+    font-size: 1.2rem;
+}
+button{
+    background-color: brown;
+    margin: 2vh auto;
+    padding: 2vh 10vw;
+    color: white;
+    font-size: 1.5rem;
+
+}
+footer{
+    text-align: center;
+    font-size: 2rem;
+    color: brown;
+    position: static;
+}
+

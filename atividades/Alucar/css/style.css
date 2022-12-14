@@ -1,0 +1,45 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+/*topo*/
+header{
+    display: flex;
+    align-items: center;
+    background-color: brown;
+    height: 15vh;
+    color: white;
+    font-size: 2rem;
+}
+header > h2{
+    margin-left: 5vw;
+}
+
+/*principal*/
+.capa-imagem{
+    background-image: url("../imagem/capa.jpg");
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: right;
+}
+.capa-titulo{
+    display: flex;
+    flex-direction: column;
+    
+    background-color: rgba(0, 0, 0, 0.371);
+    height: 15vh; 
+    color: #fff;
+}
+
+
+.capa-titulo > h2{
+    margin-top: 2vh;
+    margin-right: 15vw;
+    font-size: 2rem;
+}
+section{
+    text-align: center;
+    margin-top: 5vh;
+}
